@@ -87,12 +87,16 @@ atom-text-editor .search-results .marker.current-result .region,
 .keyword {
   color: @keywords;
 
+  &.function {
+      color: @keywords;
+  }
+
   &.control {
     color: @keywords;
   }
 
   &.operator {
-    color: @syntax-text-color;
+    color: @semi-light-gray;
   }
 
   &.other.special-method {
@@ -130,6 +134,12 @@ atom-text-editor .search-results .marker.current-result .region,
     color: test-color;
   }
 
+  &.language {
+      &.js {
+          color: @light-orange;
+      }
+  }
+
   &.parameter.function {
     color: @syntax-text-color;
   }
@@ -157,6 +167,11 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .punctuation {
+
+  &.other {
+    color: @semi-light-gray;
+  }
+
   &.definition {
     &.comment {
       color: @light-gray;
@@ -196,6 +211,10 @@ atom-text-editor .search-results .marker.current-result .region,
 .support {
   &.class {
     color: @light-orange;
+  }
+
+  &.constant {
+      color: @red;
   }
 
   &.function  {
