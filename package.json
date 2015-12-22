@@ -1,7 +1,7 @@
 {
   "name": "dusk-syntax",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A dusk syntax theme for the go language",
   "keywords": [
     "syntax",
