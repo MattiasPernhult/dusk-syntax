@@ -1,0 +1,24 @@
+{
+  "name": "dusk-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A dusk syntax theme for the go language",
+  "keywords": [
+    "syntax",
+    "theme",
+    "dusk"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattiasPernhult/dusk-syntax"
+  },
+  "author": "mattiaspernhult <pernhultmattias@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/MattiasPernhult/snacks/issues"
+  },
+  "homepage": "https://github.com/MattiasPernhult/snacks#readme",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
